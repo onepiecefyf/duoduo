@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;shop-order-service/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;shop-search-service&apos;&#x0D;&#x0A;- Destination element: &apos;shop-order-service/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     mybatis&#x0D;&#x0A;     properties&#x0D;&#x0A;     spring" description="Copy folders" destination="=shop-order-service/src\/main\/resources" element1="src/main/resources/mybatis" element2="src/main/resources/properties" element3="src/main/resources/spring" files="0" flags="589830" folders="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1522910764730" units="0" version="1.0"/>
+</session>

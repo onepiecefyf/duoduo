@@ -1,0 +1,4 @@
+com\shop\search\dao\SearchDao.class
+com\shop\search\service\impl\SearchItemServiceImpl.class
+com\shop\search\mapper\SearchItemMapper.class
+com\shop\search\listener\searitemListener\SearchItemListener.class

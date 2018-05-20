@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=shop-manager-interface/src\/main\/java&lt;com.shop.service{ItemService.java[ItemService" modifiers="513" timestamp="1522241654153"/>
+<typeInfo handle="=shop-manager-interface/src\/main\/java&lt;com.shop.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1510748202671"/>
+<typeInfo handle="=shop-content-interface/src\/main\/java&lt;com.shop.content.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1521268955367"/>
+<typeInfo handle="=shop-search-service/src\/main\/java&lt;com.shop.search.mapper{SearchItemMapper.java[SearchItemMapper" modifiers="513" timestamp="1522071572894"/>
+<typeInfo handle="=shop-manager-pojo/src\/main\/java&lt;com.shop.pojo{TbItem.java[TbItem" modifiers="1" timestamp="1510744869303"/>
+<typeInfo handle="=shop-manager-web/C:\/Users\/feng\/.m2\/repository\/org\/apache\/activemq\/activemq-all\/5.11.2\/activemq-all-5.11.2.jar&lt;javax.jms(MessageListener.class[MessageListener" modifiers="1537" timestamp="1510661666680"/>
+<typeInfo handle="=shop-sso-interface/src\/main\/java&lt;com.shop.sso.service{UserService.java[UserService" modifiers="513" timestamp="1522843025389"/>
+</typeInfoHistroy>

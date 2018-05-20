@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;applicationContext-activeMQ.xml&apos; to &apos;spring&apos;&#x0D;&#x0A;- Original project: &apos;shop-search-service&apos;&#x0D;&#x0A;- Destination element: &apos;spring&apos;&#x0D;&#x0A;- Original element: &apos;applicationContext-activeMQ.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/resources/spring/applicationContext-activeMQ.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1522328958621" target="/shop-item-web/src/main/resources/spring" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="452" key="DIALOG_X_ORIGIN"/>
+		<item value="234" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="47.95.1.113" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="192.168.142.128"/>
+			<item value="47.95.1.113"/>
+			<item value="orrder-cart"/>
+			<item value="shop-sso-web"/>
+			<item value="goToOrder"/>
+			<item value="delete"/>
+			<item value="buy-num"/>
+			<item value="getItemParam"/>
+		</list>
+		<list key="replacehistory">
+			<item value="47.95.1.113"/>
+			<item value="shop-order-web"/>
+			<item value="shop-cart-web"/>
+			<item value="sso"/>
+			<item value="shop-item-web"/>
+			<item value="大冯商场"/>
+			<item value="shop-search-web"/>
+			<item value="/"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<item value="449" key="DIALOG_HEIGHT"/>
+		<item value="853" key="DIALOG_X_ORIGIN"/>
+		<item value="347" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

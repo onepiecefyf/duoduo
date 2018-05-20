@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-4.2.xsd 
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+	http://code.alibabatech.com/schema/dubbo 
+	http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util-4.2.xsd
+	http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
+
+	<!-- 1 配置扫描Controller包 -->
+	<context:component-scan base-package="com.shop.manager.controller" />
+	<!-- 2 加载属性配置文件(如果有属性文件需要加载的话才会使用) -->
+	<context:property-placeholder location="classpath:resource/*.properties" /> 
+	<!-- 3 配置注解扫描器 -->
+	<mvc:annotation-driven />
+	<!-- 4 配置视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	<!-- 5 配置资源映射器，因为在web.xml中配置的是拦截所有的请求 -->
+	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"></mvc:resources>
+	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"></mvc:resources>
+	<mvc:resources location="/WEB-INF/imag/" mapping="/imag/**"></mvc:resources>
+	<!-- 6 定义文件上传解析器（如果有文件需要上传的话才会使用） -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 设置默认的编码是UTF-8 -->
+		<property name="defaultEncoding" value="UTF-8"></property>
+		<!-- 设置上传的文件的最大值就是5MB  5*1024*1024 -->
+		<property name="maxUploadSize" value="5242880"></property>
+	</bean>
+	<!-- 7 引用Dubbo服务 -->
+	<dubbo:application name="shop-manager-web"/>
+	<dubbo:registry protocol="zookeeper" address="47.95.1.113:2181"/>	
+	<dubbo:reference interface="com.shop.service.ItemService" id="itemService" />
+	<dubbo:reference interface="com.shop.service.ItemCatService" id="itemCatService" />
+	<dubbo:reference interface="com.shop.content.service.ContentCategoryService" id="contentCategoryService" />
+	<dubbo:reference interface="com.shop.content.service.ContentService" id="contentService" />
+	<dubbo:reference interface="com.shop.search.service.SearchItemService" id="searchItemService" />
+</beans>

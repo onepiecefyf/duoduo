@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shop.search.mapper.SearchItemMapper" >
+  
+  <select id="getItemList" resultType="com.shop.common.pojo.SearchItem">
+    select 
+ 		a.id id,
+		a.title item_title,
+		a.sell_point item_sell_point,
+		a.price item_price,
+		a.image item_image,
+		b.name item_category_name,
+		c.item_desc item_desc
+	from tb_item a left join tb_item_cat b on a.cid=b.id left join tb_item_desc c on a.id=c.item_id
+	where a.status = 1
+  </select>
+  
+  <select id="getItemById" parameterType="long" resultType="com.shop.common.pojo.SearchItem">
+  	select 
+ 		a.id id,
+		a.title item_title,
+		a.sell_point item_sell_point,
+		a.price item_price,
+		a.image item_image,
+		b.name item_category_name,
+		c.item_desc item_desc
+	from tb_item a left join tb_item_cat b on a.cid=b.id left join tb_item_desc c on a.id=c.item_id
+	where a.status = 1 AND a.id = #{itemId}
+  </select>
+  
+</mapper>

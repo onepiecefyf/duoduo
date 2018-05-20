@@ -1,0 +1,10 @@
+com\shop\common\pojo\IDUtils.class
+com\shop\common\conts\RegisterTypeEnum.class
+com\shop\common\utils\CookieUtils.class
+com\shop\common\pojo\EasyUIDataGridResult.class
+com\shop\common\pojo\EasyUITreeNode.class
+com\shop\common\utils\JsonUtils.class
+com\shop\common\pojo\TaotaoResult.class
+com\shop\common\pojo\EasyUIResult.class
+com\shop\common\pojo\SearchItem.class
+com\shop\common\pojo\SearchSolrResult.class

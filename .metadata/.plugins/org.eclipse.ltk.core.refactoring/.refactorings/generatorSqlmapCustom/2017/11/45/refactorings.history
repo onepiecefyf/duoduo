@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.shop.mapper&apos; to &apos;shop-manager-dao/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;generatorSqlmapCustom&apos;&#x0D;&#x0A;- Destination element: &apos;shop-manager-dao/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;generatorSqlmapCustom/src/com.shop.mapper&apos;" description="Copy package" destination="=shop-manager-dao/src\/main\/java" element1="/src&lt;com.shop.mapper" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1510231943261" version="1.0"/>
+</session>

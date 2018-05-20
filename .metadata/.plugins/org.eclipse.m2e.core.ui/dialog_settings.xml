@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.shop"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="shop-order-web"/>
+			<item value="shop-parent"/>
+			<item value="shop-order-service"/>
+			<item value="shop-order"/>
+			<item value="shop-order-interface"/>
+			<item value="shop-car-web"/>
+			<item value="shop-sso-web"/>
+			<item value="shop-sso-service"/>
+			<item value="shop-sso"/>
+			<item value="shop-sso-interface"/>
+			<item value="shop-item-web"/>
+			<item value="shop-item"/>
+			<item value="shop-search-web"/>
+			<item value="shop-search-service"/>
+			<item value="shop-search"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="443" key="x"/>
+		<item value="0" key="y"/>
+		<item value="589" key="height"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="shop-order-service"/>
+			<item value="shop-order-interface"/>
+			<item value="shop-sso-service"/>
+			<item value="shop-sso-interface"/>
+			<item value="shop-search-service"/>
+			<item value="shop-search-interface"/>
+			<item value="shop-content-service"/>
+			<item value="shop-content-interface"/>
+			<item value="shop-manager-service"/>
+			<item value="shop-manager-interface"/>
+			<item value="shop-manager-dao"/>
+			<item value="shop-manager-pojo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\workspace\taotao-workspace\shop-order\shop-order-service"/>
+			<item value="D:\workspace\taotao-workspace\shop-car-web"/>
+			<item value="D:\workspace\taotao-workspace\shop-sso\shop-sso-service"/>
+			<item value="D:\workspace\taotao-workspace\shop-search\shop-search-service"/>
+			<item value="D:\workspace\taotao-workspace\shop-search\shop-search-interface"/>
+			<item value="D:\workspace\taotao-workspace\shop-manager\pom.xml"/>
+			<item value="D:\workspace\taotao-workspace\shop-web"/>
+			<item value="D:\workspace\taotao-workspace\shop-manager"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

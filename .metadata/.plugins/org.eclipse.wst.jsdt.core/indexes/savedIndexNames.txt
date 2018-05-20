@@ -1,0 +1,18 @@
+INDEX VERSION 1.3+D:\workspace\taotao-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2980836350.index
+3304856319.index
+3845545796.index
+42485335.index
+3335497649.index
+1681900603.index
+116632991.index
+4011820276.index
+3582961750.index
+2343956808.index
+2557112819.index
+1872227748.index
+254023332.index
+2802469652.index
+1815871632.index
+713185702.index
+4167633718.index

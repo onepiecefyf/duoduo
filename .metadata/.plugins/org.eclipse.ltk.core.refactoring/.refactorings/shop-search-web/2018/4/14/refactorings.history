@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;shop-search-web&apos;&#x0D;&#x0A;- Original project: &apos;shop-search-web&apos;&#x0D;&#x0A;- Original element: &apos;shop-search-web/src/test/java/com.shop.search.test.solr&apos;" description="Delete element" element1="/src\/test\/java&lt;com.shop.search.test.solr" element2="/src\/test\/java&lt;com.shop.search.test" element3="/src\/test\/java&lt;com.shop.search" element4="/src\/test\/java&lt;com.shop" element5="/src\/test\/java&lt;com" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1523085605985" subPackages="false" version="1.0"/>
+</session>
